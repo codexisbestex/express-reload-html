@@ -1,9 +1,59 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;900&display=swap");
+
+* {
+  font-family: "Outfit", sans-serif;
 }
 
-h1 {
-  color: green;
+section {
+  display: flex;
+  flex-direction: row;
 }
 
+section img {
+  flex: 1;
+  max-width: 50vw;
+}
+
+#info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #15003f;
+}
+
+#name {
+  color: lightsteelblue;
+  text-transform: uppercase;
+  margin-bottom: 1em;
+  font-weight: 400;
+}
+
+section h1 {
+  color: white;
+  font-size: 3em;
+  font-weight: 900;
+  margin-bottom: 0.5em;
+}
+
+section p {
+  color: white;
+  font-weight: 400;
+}
+
+section h2 {
+  color: white;
+  margin: 1.5em 0 0.5em;
+  font-weight: 900;
+  font-size: 2em;
+  text-transform: uppercase;
+}
+
+section ul {
+  margin-bottom: 1em;
+}
+
+section ul li a {
+  color: lightsteelblue;
+}
